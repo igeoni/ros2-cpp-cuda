@@ -1,0 +1,14 @@
+<package format="3">
+  <name>test_cuda_package</name>
+  <version>0.0.1</version>
+  <description>Test CUDA package</description>
+  <maintainer email="user@example.com">User</maintainer>
+  <license>Apache 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <export>
+    
+  </export>
+  <depend>rclcpp</depend>
+  <exec_depend>cuda</exec_depend>
+</package>
