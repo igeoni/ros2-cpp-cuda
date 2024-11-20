@@ -21,12 +21,10 @@ Build the Package
 Clone the repository into your ROS 2 workspace:
 
 ## Build the Package
-cd ~/ros2_ws/src
-git clone https://github.com/igeoni/ros2-cpp-cuda.git
+- cd ~/ros2_ws/src
+- git clone https://github.com/igeoni/ros2-cpp-cuda.git
 
-cd ~/ros2_ws
-colcon build --symlink-install
-Source the workspace:
+- cd ~/ros2_ws
+- colcon build --symlink-install
 
-
-source ~/ros2_ws/install/setup.bash
+- source ~/ros2_ws/install/setup.bash
